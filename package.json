@@ -1,0 +1,19 @@
+{
+  "name": "cure-or-die",
+  "version": "1.0.0",
+  "description": "A FNAF-style survival game where you complete a vaccine while defending against zombie threats",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "http-server -c-1 -o -p 8080",
+    "dev": "http-server"
+  },
+  "keywords": ["phaser", "game", "zombie", "survival"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
